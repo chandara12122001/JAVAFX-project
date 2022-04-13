@@ -14,9 +14,29 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 > If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
 ## Dependency Management
+Please make sure you have downloaded JAVAFX jar files.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+https://gluonhq.com/products/javafx/
 
-FOR FONT AWESOME JAR FILE
+Select the one use for your OS.
+
+after that you can clone the repo, then add it those .jar files to the project
+
+if you use VSCODE make sure you go to RUN -> Add Configuration
+
+in Launch.json
+
+make sure you add the "vmArgs": "--module-path \" the path to the javafx lib directory\" --add-modules javafx.controls,javafx.fxml"
+
+DONE FOR JAVAFX
+
+MYSQL Connector download
+
+https://cdn.mysql.com//Downloads/Connector-J/mysql-connector-java-8.0.28.zi
+
+Font awesome icon download
+
 https://download.jar-download.com/cache_jars/de.jensd/fontawesomefx/8.1/jar_files.zip
-click here to download
+
+
+
